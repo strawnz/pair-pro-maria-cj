@@ -1,0 +1,26 @@
+[
+    {
+        "item": "Ring",
+        "location": "ballroom",
+        "info": "Sir Archibald's heirloom ring! Why is Edward wearing this?",
+        "image": "http://localhost:8080/public/ring.png"
+    },
+    {
+        "item": "Love letter",
+        "location": "library",
+        "info": "Hmmm, a love letter! This doesn't look like Sir Archibald's handwriting...",
+        "image": "http://localhost:8080/public/loveletter1.jpg"
+    },
+    {
+        "item": "Business letter",
+        "location": "guestroom",
+        "info": "A letter from Sir Archibald to his lawyers... He's planning to cut off Samuel from his business!",
+        "image": "http://localhost:8080/public/busletter.jpg"
+    },
+    {
+        "item": "Posioned chalice",
+        "location": "study",
+        "info": "Mmm, does that smell like poison?",
+        "image": "http://localhost:8080/public/chalice2.png"
+    }
+]

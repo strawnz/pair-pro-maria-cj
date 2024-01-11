@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Edward (the envious brother)",
+    "item": "Ring",
+    "image": "http://localhost:8080/public/brother1.jpg",
+    "story": [
+      "I was in the library. I think it was Victoria; I heard her fighting with Archie."
+    ],
+    "didIt": "false"
+  },
+  {
+    "name": "Victoria (the jealous lover)",
+    "item": "Love letter",
+    "image": "http://localhost:8080/public/lover.png",
+    "story": [
+      "When I found Archie, he was dead. I think it was Samuel, he never liked Archie's business decisions."
+      ],
+    "didIt": "false"
+  },
+  {
+    "name": "Samuel (the conniving business partner)",
+    "item": "Business Letter",
+    "image": "http://localhost:8080/public/partner1.jpg",
+    "story": [
+        "I was in my room when I heard Victoria scream. I think it was Edward, I saw him carrying Archie's ring."
+      ],
+    "didIt": "true"
+  },
+  {
+    "name": "Reginald (the loyal butler)",
+    "item": "none",
+    "image": "http://localhost:8080/public/butler.jpg",
+    "story": [
+        "I saw Mr. Samuel go into the Study with Sir Archibald before he died. I saw Mr. Edward carry a letter to the library. Madam Victoria was worried Sir Archibald was having an affair."
+      ],
+    "didIt": "false"
+  }
+]
+  
