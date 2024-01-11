@@ -1,0 +1,50 @@
+.library {
+    background-image: url("http://localhost:8080/public/library.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.library__title {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.library__back {
+    background-color: white;
+    padding: 0.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border-radius: 4px;
+}
+
+.library__back:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.library-item {
+    display: block;
+    width: 5rem;
+
+    &__container {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 65%;
+        left: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:hover > .library-item__tooltip {
+            display: block;
+        }
+    }
+
+    &__tooltip {
+        display: none;
+        background-color: black;
+        color: white;
+    }
+}

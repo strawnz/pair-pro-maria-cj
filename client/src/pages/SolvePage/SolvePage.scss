@@ -1,0 +1,65 @@
+.solve {
+    background-image: url("http://localhost:8080/public/manor.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.solve__header {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.characters {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.character {
+    background-color: black;
+
+    &:hover > .character__tooltip {
+        display: block;
+    }
+
+    &__image {
+        display: block;
+        object-fit: contain;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    &__image:hover {
+        border: 2px solid red; 
+    }
+
+    &__name {
+        color: white;
+    }
+
+    &__tooltip {
+        color: white;
+        display: none;
+    }
+}
+
+.solve__message {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 65%;
+}
+
+.solve__link {
+    background-color: white;
+    padding: 0.5rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 90%;
+    border-radius: 4px;
+    font-weight: bold;
+}

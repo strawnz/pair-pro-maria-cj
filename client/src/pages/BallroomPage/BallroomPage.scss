@@ -1,0 +1,120 @@
+.ballroom {
+    background-image: url("http://localhost:8080/public/ballroom.jpg");
+    background-size: cover;
+    background-position: 50% 0;
+    height: 100vh;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ballroom__header {
+    color: white;
+    text-align: center;
+    font-size: 2.25rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.ballroom__link {
+    background-color: white;
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+
+    &--study {
+        transform: translate(-50%, -50%);
+        top: 63%;
+        left: 50%;
+    }
+
+    &--study:hover {
+        filter: drop-shadow(0 0 0.75rem crimson);
+    }
+
+    &--library {
+        transform: translate(-50%, -50%);
+        top: 75%;
+        left: 17%;
+    }
+
+    &--library:hover {
+        filter: drop-shadow(0 0 0.75rem crimson);
+    }
+    
+    &--guestroom {
+        transform: translate(-50%, -50%);
+        top: 75%;
+        left: 83%;
+    }
+
+    &--guestroom:hover {
+        filter: drop-shadow(0 0 0.75rem crimson);
+    }
+
+    &--solve {
+        background-color: #cfb646;
+        top: 92%;
+        left: 45%;
+        font-weight: bold;
+    }
+}
+
+.characters {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.character {
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 12px 1px rgba(50, 50, 50, 0.25);
+    width: 15rem;
+
+    &:hover > .character__tooltip {
+        display: block;
+    }
+
+    &__image {
+        display: block;
+        object-fit: contain;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    &__name {
+        color: white;
+        text-align: center;
+    }
+
+    &__tooltip {
+        color: white;
+        display: none;
+    }
+}
+
+.ballroom-item {
+    display: block;
+    width: 2rem;
+
+    &__container {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 95%;
+        left: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:hover > .ballroom-item__tooltip {
+            display: block;
+        }
+    }
+
+    &__tooltip {
+        display: none;
+        background-color: black;
+        color: white;
+    }
+}
